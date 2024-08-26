@@ -1,0 +1,34 @@
+.post-text-wrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  border-radius: 8px;
+  background: var(--grey-191920);
+  padding: 15px;
+}
+
+.post-emote {
+  height: 52px;
+  width: 58px;
+  font-size: 18px;
+  background: var(--grey-27292D);
+  border-radius: 500px;
+  align-content: center;
+}
+
+.post-textbox {
+  outline: none;
+  min-height: 48px;
+  width: 100%;
+  background: var(--grey-191920);
+  border: none;
+  color: var(--grey-7F8084);
+  font-family: 'Inter', sans-serif;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  align-content: center;
+  resize: none;
+  height: 100%;
+  overflow-y: hidden;
+}

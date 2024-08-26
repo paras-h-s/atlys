@@ -1,0 +1,24 @@
+.feed {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  overflow: auto;
+  height: 500px;
+  min-height: 100%;
+  padding-top: 20px;
+}
+
+.post-card-list-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.feed {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+.feed::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
